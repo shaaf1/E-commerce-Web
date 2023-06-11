@@ -1,5 +1,5 @@
 body {
-    background-image: url(/bg\ 2.jpg);
+    background-color: burlywood
 }
 /* Navigation bar styles */
  nav {
@@ -29,14 +29,14 @@ body {
   }
   p {
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    color: #fff;
-    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkblue;
+    text-align: center;
   }
 
   footer {
     background-color: #333;
-    color: #fff;
+    color: #ffffff;
     padding: 20px;
     text-align: center;
   }
