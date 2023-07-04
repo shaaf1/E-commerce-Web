@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Account Dashboard</title>
+  <style>
+    /* CSS styling for the dashboard */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .welcome-message {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .user-info {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+
+    .user-info label {
+      font-weight: bold;
+    }
+
+    .logout-button {
+      background-color: #f44336;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .logout-button:hover {
+      background-color: #d32f2f;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Account Dashboard</h2>
+    <div class="welcome-message">
+      <p>Welcome, Shop-blue Manager <q>Shaaf Sheikh!</q></p>
+    </div>
+    <div class="user-info">
+      <label>Name:</label>
+      <span>SHAAF SHEIKH</span>
+    </div>
+    <div class="user-info">
+      <label>Email:</label>
+      <span>Shaafss18@gmail.com</span>
+    </div>
+    <div class="user-info">
+      <label>Membership Level:</label>
+      <span>SILVER</span>
+    </div>
+    <div class="user-info">
+      <label>Account Balance:</label>
+      <span>----</span>
+    </div>
+    <button class="logout-button"><a href="signin.html">Log out</a></button>
+    <a href="signin.html" style="box-sizing: border-box;">BACK</a>
+  </div>
+</body>
+</html>
